@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9fbe7;
+  color: #333;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #aed581;
+  border-radius: 10px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* 🧾 Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* 💻 Laptop */
+@media (min-width: 1025px) {
+  html {
+    font-size: 16px;
+  }
+}

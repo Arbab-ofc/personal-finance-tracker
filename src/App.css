@@ -1,0 +1,20 @@
+.app {
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-heading {
+  color: #33691e;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.reset-btn {
+  margin-top: 2rem;
+  background: #ff5722;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
